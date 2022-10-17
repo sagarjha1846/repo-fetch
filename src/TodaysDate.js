@@ -1,4 +1,11 @@
-//src/TodaysDate.js
-import React from 'react';
-const TodaysDate = () => <div>{`Today's date is ${Date()}`}</div>;
-export default TodaysDate;
+import React from 'react'
+
+function TodaysDate() {
+  return (
+    <div>
+      <h1>{`Today's date is ${Date()}`}</h1>
+    </div>
+  );
+}
+
+export default TodaysDate
