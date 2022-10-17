@@ -1,1 +1,2 @@
-export { default as App } from './App';
+//src/index.js
+export { default as TodaysDate } from './TodaysDate/Date';
