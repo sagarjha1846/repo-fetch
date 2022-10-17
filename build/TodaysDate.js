@@ -1,10 +1,15 @@
-//src/TodaysDate.js
 import React from 'react';
-var TodaysDate = function TodaysDate() {
+
+function TodaysDate() {
   return React.createElement(
     'div',
     null,
-    'Today\'s date is ' + Date()
+    React.createElement(
+      'h1',
+      null,
+      'Today\'s date is ' + Date()
+    )
   );
-};
+}
+
 export default TodaysDate;
