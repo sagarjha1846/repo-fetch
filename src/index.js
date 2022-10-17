@@ -1,2 +1,2 @@
 //src/index.js
-export { default as TodaysDate } from './TodaysDate/Date';
+export * as TodaysDate from './TodaysDate/Date';
